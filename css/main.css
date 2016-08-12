@@ -1,0 +1,225 @@
+@charset "UTF-8" ;
+
+
+#body{
+   width: 1920px;
+   height: 1080px;
+   float: left;
+}
+
+#search{
+	width: 89%;
+	height: 200px;
+	border:2px solid;
+   font-size: 24px;
+   overflow: hidden;
+   display: inline-block;
+}
+
+#logo{
+   display: inline-block;
+   width: 10%;
+   height: 200px;
+   border:2px solid;
+   overflow: hidden;
+   background-image: url("../images/logo.png");
+   background-repeat: no-repeat;
+   background-position:center;
+}
+
+#search-button{
+   font-size: 18px;
+   height: 30px;
+   width: 80px;
+
+}
+#change-button{
+  width: 10%;
+	height: 30px;
+  font-size:12px;
+  overflow: hidden;
+}
+#option-button{
+  width: 10%;
+	height: 30px;
+  font-size:12px;
+  overflow: hidden;
+}
+
+
+#wari{
+  margin:10px 20px;
+  float:right;
+  display: inline-block;
+  width: 30%;
+  font-size:24px;
+  height: 30px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+#mean{
+  margin:10px 20px;
+  float:right;
+  width: 30%;
+	height: 30px;
+  font-size:24px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.waricomp{
+  float:left;
+}
+
+.map-embed
+{
+	max-width: 100% ;
+	height: 0 ;
+	margin: 0 ;
+	padding: 0 0 50% ;
+
+	position: relative ;
+	top: 0 ;
+	left: 0 ;
+}
+
+.map-embed > div
+{
+
+
+	width:1220px;
+	height:960px;
+	display:inline-block
+}
+
+.map-embed img
+{
+	max-width: none ;
+}
+
+#mapField{
+	width:65%;
+	height:960px;
+	float:right;
+	display:inline-block
+}
+
+#details {
+	vertical-align: top;
+	width: 35%;
+	height: 960px;
+	float: left;
+	border: 3px solid;
+}
+#details2 {
+	vertical-align: top;
+	width: 35%;
+	height: 960px;
+	float: left;
+	border: 3px solid;
+}
+.details-in{display:inline-block;}
+
+#detail-name{
+	font-size: 24px;
+	vertical-align:top left;
+	border:2px solid;
+}
+#detail-name2{
+	font-size: 24px;
+	vertical-align:top left;
+	border:2px solid;
+}
+
+#filters{
+   border:2px solid;
+   font-size: 24px;
+}
+
+
+.button-close{
+  display:none;
+}
+.button-open{
+  display:block;
+}
+
+.pull_down{
+   width: 23%;
+
+   padding: 5px;
+}
+
+.input{
+   width: 23%;
+   height: 10px;
+   display: inline-block;
+   padding: 5px;
+}
+
+#tani{
+   width: 14%;
+   display: inline-block;
+   padding: 5px;
+}
+
+.list{
+   height:24px;
+   width:140px;
+}
+
+.text{
+   height:15px;
+   width:100px;
+   padding:3px;
+}
+
+#madori{
+   height:24px;
+   width:40px;
+}
+
+.check{
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+.bukken{
+  width: 100%;
+  height: 32.5%;
+  padding:3px;
+  float:left;
+  border:2px solid;
+}
+
+.bukken-image{
+  width: 42%;
+  height: 100%;
+  font-size: 24px;
+  display: inline-block;
+  float:left;
+  background-size: 260px 260px;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+
+
+.detail1{
+  width: 55%;
+  height: 100%;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+
+
+.detail{
+  width: 99%;
+  font-size: 12px;
+  margin-bottom: 3px;
+  margin-left: 8px;
+}
